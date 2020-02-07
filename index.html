@@ -1,0 +1,347 @@
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+	.grid_1 { width: 6.6666666666667%; }
+	.grid_2 { width: 15%; }
+	.grid_3 { width: 23.333333333333%; }
+	.grid_4 { width: 31.666666666667%; }
+	.grid_5 { width: 40%; }
+	.grid_6 { width: 48.333333333333%; }
+	.grid_7 { width: 56.666666666667%; }
+	.grid_8 { width: 65%; }
+	.grid_9 { width: 73.333333333333%; }
+	.grid_10 { width: 81.666666666667%; }
+	.grid_11 { width: 90%; }
+	.grid_12 { width: 98.333333333333%; }
+
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		margin-left: 0.83333333333333%;
+		margin-right: 0.83333333333333%;
+		float: left;
+		display: block;
+	}
+
+	.alpha{margin-left:0px;}
+	.omega{margin-right:0px;}
+
+	.container{
+		min-width: 960px; 
+		//! max-width: 1080px; 
+		margin: auto;
+	}
+
+	.ra-clear{
+		clear:both;
+		display:block;
+		overflow:hidden;
+		visibility:hidden;
+		width:0;height:0
+	}
+
+/* colors and font styles*/
+.ra-c1{color:#E45C00;}
+.ra-c2{color:#3A87AD;}
+.ra-c3{color:#468847;}
+.ra-bold{font-weight: bold;}
+
+.ra-bg1{background:#E45C00;}
+.ra-bg2{background:#3A87AD;}
+.ra-bg3{background:#468847;}
+
+	::selection {
+		background-color: #FF5A00;
+		color: #fff;
+	}	
+
+	::-moz-selection {
+		background-color: #FF5A00;
+		color: #fff;
+	}
+
+
+/* table ***********/
+
+	.ra-t{
+		border-bottom: 1px solid #eee;
+		display: block;
+		padding: 5px 10px;
+		cursor:default;
+	}
+
+	.ra-t:hover{
+		background-color: #eee;
+	}
+
+	.ra-t span{
+		float: right;
+	}
+
+/* blocks */
+	.ra-center{
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.ra-right{
+		display: block;
+		float: right;
+	}
+	.ra-left{
+		display: block;
+		float: left;
+	}
+	
+	.ra-panel{
+		border-top: 2px solid;
+		border-bottom: 2px solid;
+		display:block;
+		padding: 7px;
+		font-weight:bold;
+	}
+	
+	.ra-panel.ra-red{
+		border-color:#E45C00;
+		color:#E45C00;
+		background-color:#FFE3CE;
+	}
+	.ra-panel.ra-blue{
+		border-color:#3A87AD;
+		color:#3A87AD;
+		background-color:#DBF7FF	;
+	}
+	.ra-panel.ra-green{
+		border-color:#468847;
+		color:#468847;
+		background-color:#EAFFED;
+	}
+	
+.ra-c1{color:#E45C00;}
+.ra-c2{color:#3A87AD;}
+.ra-c3{color:#468847;}
+.ra-bold{font-weight: bold;}
+
+.ra-bg1{background:#E45C00;}
+.ra-bg2{background:#3A87AD;}
+.ra-bg3{background:#468847;}
+	
+.ra-rgb{display:inline;}
+.ra-rgb.r{color:red;}
+.ra-rgb.g{color:green;}
+.ra-rgb.b{color:blue;}
+
+	.ra-promo-center{
+		width: 70%;
+		display: block;
+		padding: 15px 0;
+		border-bottom: 1px dotted #FF5A00;
+		margin: 5px auto;
+	}
+	.ra-half-left{
+		width: 49%;
+		display: block;
+		float: left;
+	}
+	.ra-half-right{
+		width: 49%;
+		display: block;
+		float: right;
+	}
+
+	.ra-main{
+		background-color: #eee;
+		padding: 5px 5px 50px 5px;
+		font-family: Arial;
+	}
+
+	.ra-sidebar{
+		
+	}
+	
+	.ra-inner{
+		margin-bottom: 15px;
+		background-color: #fff;
+		border: 1px solid #D8D8D8;
+		padding: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+		-moz-box-shadow: 0px 0px 5px #aaa;
+		-webkit-box-shadow: 0px 0px 5px :;
+		box-shadow: 0px 0px 5px #bbb;
+		/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+	}
+	
+	.ra-mmenu{
+		padding: 0;
+	}
+	
+	.ra-mmenu li{
+		display:block;
+		padding: 3px 12px;
+		color:#468847;
+		//font-size: 120%;
+		font-weight:bold;
+		border: 3px #ccc;
+	}
+	
+	.ra-mmenu li.sub{
+		padding-left: 30px;
+	}
+	
+	.ra-mmenu li:hover{
+		background: #468847;
+		color:#fff;
+	}
+	
+	
+/* headers */
+	.ra-h{
+		margin: 0 auto;
+		font-weight: bold;
+	}
+	.ra-h.ra-c1{text-shadow: 1px 1px 1px #E45C00;}
+	.ra-h.ra-c2{text-shadow: 1px 1px 1px #3A87AD;}
+	.ra-h.ra-c3{text-shadow: 1px 1px 1px #468847;}
+	.ra-hb{
+		display:block;
+		padding:2px;
+		color:#fff;
+		text-transform: uppercase;
+	}
+	
+	.ra-li{
+	}
+	.ra-li h5,h6{
+		display:block;
+		margin:0;
+		font-size:150%;
+	}
+	.ra-li span{
+		margin-left:25px;
+		display:block;
+	}
+	
+	.ra-img-block{
+		display:block;
+		padding: 10px 0;
+	}
+	
+	.ra-img-block img{
+		float: left;
+		margin-right: 5px;
+	}
+	
+	.ra-img-block span{
+		color:red;
+		font-weight:bold;
+	}
+	
+	.ra-hidew{
+		background: #fff;
+		color:#fff;
+	}
+	
+/* font sizes */	
+	.ra-fs120{font-size: 120%;}
+	.ra-fs150{font-size: 150%;}
+	.ra-fs200{font-size: 200%;}
+	.ra-fs250{font-size: 250%;}
+	.ra-fs300{font-size: 300%;}
+	.ra-fs350{font-size: 350%;}
+	.ra-fs400{font-size: 400%;}
+
+a {
+	text-decoration: none !important;
+}
+a.linka {
+	text-decoration: underline !important;
+	font-weight:bold;
+	color:red;
+}
+
+
+/* images */
+		.ra-img-full{
+			width: 100%;
+		}
+		img{
+			max-width: 100%;
+		}
+		.ra-img-center{
+			display: block;
+			margin: 0 auto;
+		}
+		.ra-img-left{
+			display: block;
+			float: left;
+		}
+		.ra-img-right{
+			display: block;
+			float: right;
+		}
+	</style>
+
+	<div class="ra-main">
+		<img style="margin: 0 auto; display: block;" src="http://images.ruslan.rv.ua/rgbw/before-all.png" alt="">
+		<div class="container">
+			<div class="grid_3">
+				logo
+			</div>
+			<div class="grid_9">
+				slogan
+			</div>
+		</div><div class="ra-clear"></div>
+		
+		<br /><br />
+		<div class="ra-container">
+			<div class="ra-mainbody ra-inner">
+				<div class="grid_4">
+					<h3 class="ra-hb ra-bg2 ra-center ra-bold ra-fs150">наложенный платеж</h3>
+
+				</div>
+				<div class="grid_8">
+					<h3 class="ra-hb ra-bg2 ra-center ra-bold ra-fs150">Предоплата</h3>
+					<div class="ra-img-block">
+						<img src="http://images.ruslan.rv.ua/rgbw/privat.png" alt="оплата приватбанк" />
+						Предоплата на карту ПриватБанка.
+						<br />
+						Оплатить можно при помощи терминала, Приват24, в отделении банка).
+						<br />
+						После оплаты сообщите, пожалуйста, сумму, дату и время платежа.
+						<br /><br />
+						<div class="ra-container">
+							<div class="grid_6">
+								<h4 class="ra-hb ra-bg3 ra-center ra-bold ra-fs150">Нова Пошта</h4>
+								<div class="ra-img-block">
+									<img src="http://images.ruslan.rv.ua/rgbw/novaposhta.png" alt="оплата приватбанк" />
+								</div>
+							</div>
+							<div class="grid_6">
+								up
+							</div>
+						</div><div class="ra-div"></div>
+					</div>
+				</div>
+			</div>
+		</div><div class="ra-clear"></div>
+		<hr />
+
+	</div>
+	<div class="ra-hidew">
+		~ led strip led5630 IP33 5mcontroller dimmer single radio power supply 5a  ~ 
+	</div>
